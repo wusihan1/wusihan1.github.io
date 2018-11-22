@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="一、文件操作方法大全1、os.mknod(“test.txt”)：创建空文件2、ft=open(“test.txt”,w):直接打开一个文件，如果文件不存在则创建文件3、关于open模式：   w：以写方式打开   a：以追加的模式打开   r+：以读写模式打开   w+：以读写模式打开   a+：以读写模式打开   rb：以二进制读模式打开   wb:以二进制写模式打开   ab：以二进制追加模">
+<meta name="description" content="一、切片  在很多变成语言中，针对字符串提供了很多截取函数(例如，substring）,其实目的就是对字符串切片。Python没有针对字符串的截取函数，只需要切片哟个操作就可以完成。  例如：  L=list（range（100））  通过切片获取前十个数，后十个数，第11到20个数。  L=[0：10] 0，1，2，3，4，5，6，7，8，9  L=[-10:] 100,99,98,97,96,">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python文件操作">
-<meta property="og:url" content="http://yoursite.com/2018/11/19/python文件操作/index.html">
+<meta property="og:title" content="Python的高级特性">
+<meta property="og:url" content="http://yoursite.com/2018/11/21/Python的高级特性/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一、文件操作方法大全1、os.mknod(“test.txt”)：创建空文件2、ft=open(“test.txt”,w):直接打开一个文件，如果文件不存在则创建文件3、关于open模式：   w：以写方式打开   a：以追加的模式打开   r+：以读写模式打开   w+：以读写模式打开   a+：以读写模式打开   rb：以二进制读模式打开   wb:以二进制写模式打开   ab：以二进制追加模">
+<meta property="og:description" content="一、切片  在很多变成语言中，针对字符串提供了很多截取函数(例如，substring）,其实目的就是对字符串切片。Python没有针对字符串的截取函数，只需要切片哟个操作就可以完成。  例如：  L=list（range（100））  通过切片获取前十个数，后十个数，第11到20个数。  L=[0：10] 0，1，2，3，4，5，6，7，8，9  L=[-10:] 100,99,98,97,96,">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-19T05:57:45.822Z">
+<meta property="og:updated_time" content="2018-11-21T09:16:27.155Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python文件操作">
-<meta name="twitter:description" content="一、文件操作方法大全1、os.mknod(“test.txt”)：创建空文件2、ft=open(“test.txt”,w):直接打开一个文件，如果文件不存在则创建文件3、关于open模式：   w：以写方式打开   a：以追加的模式打开   r+：以读写模式打开   w+：以读写模式打开   a+：以读写模式打开   rb：以二进制读模式打开   wb:以二进制写模式打开   ab：以二进制追加模">
+<meta name="twitter:title" content="Python的高级特性">
+<meta name="twitter:description" content="一、切片  在很多变成语言中，针对字符串提供了很多截取函数(例如，substring）,其实目的就是对字符串切片。Python没有针对字符串的截取函数，只需要切片哟个操作就可以完成。  例如：  L=list（range（100））  通过切片获取前十个数，后十个数，第11到20个数。  L=[0：10] 0，1，2，3，4，5，6，7，8，9  L=[-10:] 100,99,98,97,96,">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/19/python文件操作/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/21/Python的高级特性/">
 
 
 
 
 
-  <title>python文件操作 | Hexo</title>
+  <title>Python的高级特性 | Hexo</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/19/python文件操作/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/21/Python的高级特性/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">python文件操作</h1>
+          <h1 class="post-title" itemprop="name headline">Python的高级特性</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-19T11:39:06+08:00">
-                2018-11-19
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-21T13:48:53+08:00">
+                2018-11-21
               </time>
             
 
@@ -299,8 +299,7 @@
       
 
       
-        <p>一、文件操作方法大全<br>1、os.mknod(“test.txt”)：创建空文件<br>2、ft=open(“test.txt”,w):直接打开一个文件，如果文件不存在则创建文件<br>3、关于open模式：<br>   w：以写方式打开<br>   a：以追加的模式打开<br>   r+：以读写模式打开<br>   w+：以读写模式打开<br>   a+：以读写模式打开<br>   rb：以二进制读模式打开<br>   wb:以二进制写模式打开<br>   ab：以二进制追加模式打开<br>   rb+：以二进制读写模式打开<br>   wb+:以二进制读写模式打开<br>   ab+：以二进制读写模式打开<br> ft.read([size])：#size为读取的长度，以byte为单位<br> ft.readline([size])：#读一行，如果定义了size，有可能返回的只是一行的一部分。<br> ft.realines([size])：把文件每一行作为一个list的一个成员，并返回这个list。其实他的内部是通过循环调用readline（）来实现的。<br> ft.write(str)：把str写到文件中，write（）并不会在str后加上一个换行符<br> ft.writelines([seq])：把seq的内容全部写到文件中，多行一次性写入。<br> ft.close（）：关闭文件，Python会在一个文件不用后自动关闭文件，最好还是养成自己关闭的习惯。<br> ft.flush（）:把缓冲区的内容写入硬盘<br> ft.fileno()：返回一个长整型的文件标签。<br> ft.isatty():文件是否是一个终端设备文件<br> ft.tell():返回文件操作标记的当前位置，以文件的开头为原点<br> ft.next（）：返回下一行，并将文件操作标记移到下一行<br> ft.seek(offset[,whence]):将文件打操作标记移到offset的位置，这个offset一般相当于文件的开头计算的，一般为正数，whence可以为0表示从头开始，1表示以当前位置为原点计算，2表示以文件末尾为原点进行计算。需要注意的是，如果文件以a,a+的模式打开，每次进行写操作的时候，文件操作标记会自动返回到文件末尾。</p>
-<p>二、目录操作方法大全（文件夹）<br>1、创建目录：os.mkdir(“file”)<br>2、复制文件：<br>   shutil.copyfile(“oldfile”,”newfile”)#oldfile和newfile都只能是文件<br>   shutil.copy(“oldfile”,”newfile”)#oldfile只能是文件夹，newfile可以是文件，也可以是目标目录。<br>3、复制文件夹：<br>shutil.copytree(“olddir”,”newdir”)#olddir和newdir都是能是目录，且newdir必须不存在。<br>4、重命名文件（目录）<br>os.rename(“oldname”,”newname”)<br>5、移动文件（目录）<br>os.remove(“file”)<br>6、删除文件<br>os.remove(“file”)<br>7、删除目录<br>os.rmdir(“dir”)<br>8、转换目录<br>os.chdir(“path”)</p>
+        <p>一、切片<br>  在很多变成语言中，针对字符串提供了很多截取函数(例如，substring）,其实目的就是对字符串切片。Python没有针对字符串的截取函数，只需要切片哟个操作就可以完成。<br>  例如：<br>  L=list（range（100））<br>  通过切片获取前十个数，后十个数，第11到20个数。<br>  L=[0：10] 0，1，2，3，4，5，6，7，8，9<br>  L=[-10:] 100,99,98,97,96,95,94,93,92,91<br>  L=[10:20] 10,11,12,13,14,14,16,17,18,19<br>  如果第一个索引是0 ，可以省略。<br>  前10个数，每两个取一个<br>  L[0:10:2] 第一个数和第二个数是想获得数的范围，最后的数是数之间的间隔。<br>  只写[:]可以复制一个list。</p>
 
       
     </div>
@@ -325,8 +324,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/11/14/fiddler/" rel="next" title="fiddler">
-                <i class="fa fa-chevron-left"></i> fiddler
+              <a href="/2018/11/19/python文件操作/" rel="next" title="python文件操作">
+                <i class="fa fa-chevron-left"></i> python文件操作
               </a>
             
           </div>
@@ -335,8 +334,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/11/21/Python的高级特性/" rel="prev" title="Python的高级特性">
-                Python的高级特性 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/11/22/算法/" rel="prev" title="算法">
+                算法 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
