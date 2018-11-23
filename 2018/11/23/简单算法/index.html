@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="两数之和  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。  实例：  给定nums=[2,7,11,15],target=9  因为nums[0]+nums[1]=2+7=9  所以返回[0,1]  def twoSum(self,nums,target):">
+<meta name="description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
 <meta property="og:type" content="article">
-<meta property="og:title" content="算法">
-<meta property="og:url" content="http://yoursite.com/2018/11/22/算法/index.html">
+<meta property="og:title" content="简单算法">
+<meta property="og:url" content="http://yoursite.com/2018/11/23/简单算法/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="两数之和  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。  实例：  给定nums=[2,7,11,15],target=9  因为nums[0]+nums[1]=2+7=9  所以返回[0,1]  def twoSum(self,nums,target):">
+<meta property="og:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-23T08:29:05.703Z">
+<meta property="og:updated_time" content="2018-11-23T09:04:03.228Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="算法">
-<meta name="twitter:description" content="两数之和  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。  实例：  给定nums=[2,7,11,15],target=9  因为nums[0]+nums[1]=2+7=9  所以返回[0,1]  def twoSum(self,nums,target):">
+<meta name="twitter:title" content="简单算法">
+<meta name="twitter:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/22/算法/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/23/简单算法/">
 
 
 
 
 
-  <title>算法 | Hexo</title>
+  <title>简单算法 | Hexo</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/22/算法/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/23/简单算法/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">算法</h1>
+          <h1 class="post-title" itemprop="name headline">简单算法</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-22T09:41:36+08:00">
-                2018-11-22
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-23T16:30:26+08:00">
+                2018-11-23
               </time>
             
 
@@ -299,8 +299,10 @@
       
 
       
-        <h2 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a>两数之和</h2><p>  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。<br>  实例：<br>  给定nums=[2,7,11,15],target=9<br>  因为nums[0]+nums[1]=2+7=9<br>  所以返回[0,1]<br>  def twoSum(self,nums,target):<br>      length=len(nums)<br>      for i in range(length-1):<br>          for j in range(length):<br>              if nums[i]+nums[j]==target:<br>                 return [i,j]</p>
-<h2 id="搜索插入位置"><a href="#搜索插入位置" class="headerlink" title="搜索插入位置"></a>搜索插入位置</h2><p>  题目要求：给定一个排序数组和一个目标值，在数组中找到目标值，并返回骑索引。如果目标值不存在于数组中，返回它将不会按顺序插入的位置。<br>  def inSert(self,nums,target)<br>      if target&gt;nums[0]:<br>         return 0<br>      lenght=len(nums)<br>      if target&gt;nums[-1]:<br>         return lenght<br>      for i in range(lenght):<br>          if nums[i]&lt;target:<br>             pass<br>          else:<br>             return i</p>
+        <h2 id="1、两数之和"><a href="#1、两数之和" class="headerlink" title="1、两数之和"></a>1、两数之和</h2><p>题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素<br>‘’’bash<br>def twosums(self,nums,target):<br>    lenght=len(nums)<br>    for i in range(lenght-1):<br>       for j in range(i+1,lenght):<br>       if nums[i]+nums[j]==target:<br>          return[i,j]<br>‘’’</p>
+<h2 id="2、搜索插入位置"><a href="#2、搜索插入位置" class="headerlink" title="2、搜索插入位置"></a>2、搜索插入位置</h2><p>题目要求：给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将不会按书顺序插入的位置。<br>‘’’bash<br>def inSert(self,nums,target ):<br>    if target&lt;nums[0]:<br>       return 0<br>    lenght=len(nums)<br>    if target&gt;nums[-1]:<br>       return lenght<br>    for i in range(lenght):<br>        if nums[i]&lt;target :<br>           pass<br>        else:<br>           return i<br>‘’’</p>
+<h2 id="3、删除排序数组中的重复项"><a href="#3、删除排序数组中的重复项" class="headerlink" title="3、删除排序数组中的重复项"></a>3、删除排序数组中的重复项</h2><p>题目要求：给定一个排序数组，你需要在原地删除重复出现的元素，是的每一个元素只会出现一次，返回移除后数组的新长度。<br>‘’’bash<br>def delete(self,nums):<br>    lenght=len(nums):<br>    i=0<br>    if nums[i]==nums[i+1]:<br>       nums.pop(x+1)<br>       lenght=lenght-1<br>    else:<br>       return lenght</p>
+<p>‘’’</p>
 
       
     </div>
@@ -325,8 +327,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/11/21/Python的高级特性/" rel="next" title="Python的高级特性">
-                <i class="fa fa-chevron-left"></i> Python的高级特性
+              <a href="/2018/11/22/算法/" rel="next" title="算法">
+                <i class="fa fa-chevron-left"></i> 算法
               </a>
             
           </div>
@@ -334,10 +336,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/11/23/简单算法/" rel="prev" title="简单算法">
-                简单算法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -451,7 +449,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#两数之和"><span class="nav-number">1.</span> <span class="nav-text">两数之和</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搜索插入位置"><span class="nav-number">2.</span> <span class="nav-text">搜索插入位置</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1、两数之和"><span class="nav-number">1.</span> <span class="nav-text">1、两数之和</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、搜索插入位置"><span class="nav-number">2.</span> <span class="nav-text">2、搜索插入位置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、删除排序数组中的重复项"><span class="nav-number">3.</span> <span class="nav-text">3、删除排序数组中的重复项</span></a></li></ol></div>
             
 
           </div>
