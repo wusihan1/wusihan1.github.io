@@ -300,7 +300,7 @@
       
         
           
-            <p>一、两数之和<br>  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。<br>  实例：<br>  给定nums=[2,7,11,15],target=9<br>  因为nums[0]+nums[1]=2+7=9<br>  所以返回[0,1]<br>  def twoSum(self,nums,target):<br>      length=len(nums)<br>      for i in range(length-1):<br>          for j in range(length):<br>              if nums[i]+nums[j]==target:<br>                 return [i,j]</p>
+            <p>一、两数之和<br>  题目要求：给定一个证整数数组nums和一个目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种输入只会对应一个答案，，但是，你不能重复利用这个数组中同样的元素。<br>  实例：<br>  给定nums=[2,7,11,15],target=9<br>  因为nums[0]+nums[1]=2+7=9<br>  所以返回[0,1]<br>  def twoSum(self,nums,target):<br>      length=len(nums)<br>      for i in range(length-1):<br>          for j in range(length):<br>              if nums[i]+nums[j]==target:<br>                 return [i,j]<br>二、搜索插入位置<br>  题目要求：给定一个排序数组和一个目标值，在数组中找到目标值，并返回骑索引。如果目标值不存在于数组中，返回它将不会按顺序插入的位置。<br>  def inSert(self,nums,target)<br>      if target&gt;nums[0]:<br>         return 0<br>      lenght=len(nums)<br>      if target&gt;nums[-1]:<br>         return lenght<br>      for i in range(lenght):<br>          if nums[i]&lt;target:<br>             pass<br>          else:<br>             return i</p>
 
           
         
