@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
+<meta name="description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素123456def twosums(self,nums,target):    lenght=len(nums)	for i in range(lenght-1):	   for j in range(i+1,lengh">
 <meta property="og:type" content="article">
 <meta property="og:title" content="简单算法">
 <meta property="og:url" content="http://yoursite.com/2018/11/23/简单算法/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
+<meta property="og:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素123456def twosums(self,nums,target):    lenght=len(nums)	for i in range(lenght-1):	   for j in range(i+1,lengh">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-23T09:04:03.228Z">
+<meta property="og:updated_time" content="2018-11-23T09:14:56.336Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="简单算法">
-<meta name="twitter:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素‘’’bashdef twosums(self,nums,target):    lenght=len(nums)    for i in range(lenght-1):       for j in range(i+">
+<meta name="twitter:description" content="1、两数之和题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素123456def twosums(self,nums,target):    lenght=len(nums)	for i in range(lenght-1):	   for j in range(i+1,lengh">
 
 
 
@@ -299,10 +299,9 @@
       
 
       
-        <h2 id="1、两数之和"><a href="#1、两数之和" class="headerlink" title="1、两数之和"></a>1、两数之和</h2><p>题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素<br>‘’’bash<br>def twosums(self,nums,target):<br>    lenght=len(nums)<br>    for i in range(lenght-1):<br>       for j in range(i+1,lenght):<br>       if nums[i]+nums[j]==target:<br>          return[i,j]<br>‘’’</p>
-<h2 id="2、搜索插入位置"><a href="#2、搜索插入位置" class="headerlink" title="2、搜索插入位置"></a>2、搜索插入位置</h2><p>题目要求：给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将不会按书顺序插入的位置。<br>‘’’bash<br>def inSert(self,nums,target ):<br>    if target&lt;nums[0]:<br>       return 0<br>    lenght=len(nums)<br>    if target&gt;nums[-1]:<br>       return lenght<br>    for i in range(lenght):<br>        if nums[i]&lt;target :<br>           pass<br>        else:<br>           return i<br>‘’’</p>
-<h2 id="3、删除排序数组中的重复项"><a href="#3、删除排序数组中的重复项" class="headerlink" title="3、删除排序数组中的重复项"></a>3、删除排序数组中的重复项</h2><p>题目要求：给定一个排序数组，你需要在原地删除重复出现的元素，是的每一个元素只会出现一次，返回移除后数组的新长度。<br>‘’’bash<br>def delete(self,nums):<br>    lenght=len(nums):<br>    i=0<br>    if nums[i]==nums[i+1]:<br>       nums.pop(x+1)<br>       lenght=lenght-1<br>    else:<br>       return lenght</p>
-<p>‘’’</p>
+        <h2 id="1、两数之和"><a href="#1、两数之和" class="headerlink" title="1、两数之和"></a>1、两数之和</h2><p>题目要求：给定一个正整数组nums和目标值target，请你在该数组中找出和为目标值的两个整数。你可以假设每种只会对应一个答案，但是，你不能重复利用这个数组中同样的元素<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">def twosums(self,nums,target):</span><br><span class="line">    lenght=len(nums)</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(lenght-1):</span><br><span class="line">	   <span class="keyword">for</span> j <span class="keyword">in</span> range(i+1,lenght):</span><br><span class="line">	   <span class="keyword">if</span> nums[i]+nums[j]==target:</span><br><span class="line">	      <span class="built_in">return</span>[i,j]</span><br></pre></td></tr></table></figure></p>
+<h2 id="2、搜索插入位置"><a href="#2、搜索插入位置" class="headerlink" title="2、搜索插入位置"></a>2、搜索插入位置</h2><p>题目要求：给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将不会按书顺序插入的位置。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">def inSert(self,nums,target ):</span><br><span class="line">	<span class="keyword">if</span> target&lt;nums[0]:</span><br><span class="line">	   <span class="built_in">return</span> 0</span><br><span class="line">	lenght=len(nums) </span><br><span class="line">	<span class="keyword">if</span> target&gt;nums[-1]:</span><br><span class="line">	   <span class="built_in">return</span> lenght</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(lenght):</span><br><span class="line">	    <span class="keyword">if</span> nums[i]&lt;target :</span><br><span class="line">		   pass</span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">		   <span class="built_in">return</span> i</span><br></pre></td></tr></table></figure></p>
+<h2 id="3、删除排序数组中的重复项"><a href="#3、删除排序数组中的重复项" class="headerlink" title="3、删除排序数组中的重复项"></a>3、删除排序数组中的重复项</h2><p>题目要求：给定一个排序数组，你需要在原地删除重复出现的元素，是的每一个元素只会出现一次，返回移除后数组的新长度。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">def delete(self,nums):</span><br><span class="line">    lenght=len(nums):</span><br><span class="line">	i=0</span><br><span class="line">	<span class="keyword">if</span> nums[i]==nums[i+1]:</span><br><span class="line">	   nums.pop(x+1)</span><br><span class="line">	   lenght=lenght-1</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">	   <span class="built_in">return</span> lenght</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -327,8 +326,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/11/22/算法/" rel="next" title="算法">
-                <i class="fa fa-chevron-left"></i> 算法
+              <a href="/2018/11/21/Python的高级特性/" rel="next" title="Python的高级特性">
+                <i class="fa fa-chevron-left"></i> Python的高级特性
               </a>
             
           </div>
@@ -412,7 +411,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
